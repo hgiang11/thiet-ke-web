@@ -1,0 +1,75 @@
+
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+ 
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Giải thích từng thuộc tính:
+width: 1000px; → Thiết lập chiều rộng của phần tử là 1000 pixel.
+padding: 0; → Thiết lập khoảng đệm bên trong phần tử là 0px (không có khoảng trống giữa nội dung và viền phần tử).
+margin-left: auto; margin-right: auto;
+Khi kết hợp cả hai margin-left: auto; và margin-right: auto;, trình duyệt sẽ tự động căn giữa phần tử theo chiều ngang trong phần tử cha của nó.
+Điều này chỉ hoạt động khi phần tử có một giá trị width cụ thể (ở đây là 1000px). */
+
+
+
+
+#head{
+    height: 100px;
+    background-color: #ec0c0c;
+    margin-bottom:5px;
+}
+/*height: 100px; → Thiết lập chiều cao của phần tử là 100 pixel.
+background-color: #ec0c0c; → Thiết lập màu nền của phần tử là màu đỏ (#ec0c0c).
+margin-bottom: 5px; → Tạo khoảng cách 5px bên dưới phần tử này, đẩy các phần tử bên dưới nó xuống 5px. */
+
+
+
+
+#head-link{
+     height: 30px;
+     line-height: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
+     background-color: #d81f91da;
+     margin-bottom:5px;
+     clear: both;
+}
+
+#left{
+     width: 150px;
+     min-height: 400px;
+     float:left;
+     background-color: #7169e7b2;
+     margin-bottom: 5px;
+}
+
+#content{
+     width: 600px;
+     min-height: 400px;
+     background-color:#db4992;
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+
+#right{
+     width: 234px;
+     min-height: 400px;
+    background-color: rgb(189, 226, 159) ;
+     float:right;
+     margin-bottom: 5px;
+}
+
+#footer{
+     height: 50px;
+     clear: both;
+     background-color: #71d6f1;
+}
